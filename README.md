@@ -1,5 +1,6 @@
 # Scam and Phishing Links Catching API
-24/7 Updating [API](https://bryendaco.github.io/catchscams.json)
+24/7 Updating [API](https://bryendaco.github.io/catchscams.json)<br>
+If you want to submit a new scam or phishing link, [click here](https://forms.gle/XLbkTduC2i414g3B7)
 
 ## Usage
 - **Example #1 (Common Use)**
