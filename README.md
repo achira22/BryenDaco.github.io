@@ -18,6 +18,7 @@ catchscamjs(content).then(console.log);
 ```
 
 - **Example #2 (Discord.js Use)**
+
 ```js
 const catchscams = require("@bryendaco/catchscam.js");
 const discord = require('discord.js'); // Version: 13 (discord.js v13)
