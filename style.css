@@ -32,7 +32,7 @@ footer .social_icon {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 10px 25px;
+	margin: 0 10px;
 	flex-wrap: wrap;
 }
 
@@ -43,7 +43,7 @@ footer .social_icon li {
 footer .social_icon li a {
 	font-size: 2em;
 	color: #fff;
-	margin: 10px 25px;
+	margin: 0 10px;
 	display: inline-block;
 	transition: 0.5s;
 }
@@ -55,7 +55,7 @@ footer .social_icon li a:hover {
 footer p {
 	color: #fff;
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 0px;
 	margin-bottom: 7px;
 	font-size: 0.8em;
 }
