@@ -33,7 +33,7 @@ footer .menu {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 10px 0;
+	margin: 6px 4px;
 	flex-wrap: wrap;
 }
 
