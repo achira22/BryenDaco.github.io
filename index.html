@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>Bryen Daco</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="icon" href="https://cdn.discordapp.com/attachments/912341119944245258/919165669768048680/xBG.png?size=4096" />
 
 	<link rel="stylesheet" href="style.css" />
@@ -16,47 +17,37 @@
 </head>
 
 <body>
-	<header>
-		<img src="https://cdn.discordapp.com/attachments/912341119944245258/919535395451047976/chrome_wallpaper.png" class="banner">
-		<a href="#" class="logo">Bryen Daco</a>
-  </header>
+	<div class="container">
+		<div class="navigation">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Socials</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		<div class="main">
+			<div class="topbar">
+				<a href="#" class="logo">Bryen Daco</a>
+				<div class="toggle">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <footer>
-      <ul class="social_icon">
-        <li>
-          <a
-            href="https://discord.com/users/654978277701845003"
-            target="_blank"
-          >
-            <ion-icon name="logo-discord"></ion-icon>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/bryendaco" target="_blank">
-            <ion-icon name="logo-facebook"></ion-icon>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/bryen_daco/" target="_blank">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/channel/UCt0I9pfZAM0cHatoWT8aHhA?sub_confirmation=1" target="_blank">
-            <ion-icon name="logo-youtube"></ion-icon>
-          </a>
-        </li>
-      </ul>
-      <p>©2022 Bryen Daco™ | All Rights Reserved</p>
-    </footer>
+	<script>
+		let toggle = document.querySelector('.toggle');
+		let topbar = document.querySelector('.topbar');
+		let navigation = document.querySelector('.navigation');
+		let main = document.querySelector('.main');
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+		toggle.onclick = function() {
+			toggle.classList.toggle('active');
+			navigation.classList.toggle('active');
+			topbar.classList.toggle('active');
+			main.classList.toggle('active');
+		}
+	</script>
+</body>
 </html>
